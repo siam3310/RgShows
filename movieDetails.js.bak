@@ -270,7 +270,7 @@ const html2 = function (moviee) {
     " " +
     "Cinemaa"
   }`;
-  
+  let cate = "";
   let url = "./player.html?id=" + encodeURIComponent(movie.id);
   return `<div class="movie_details">
     <img class="movie_details_poster" src="https://image.tmdb.org/t/p/w500/${

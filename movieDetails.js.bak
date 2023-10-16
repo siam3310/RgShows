@@ -271,7 +271,7 @@ const html2 = function (moviee) {
     " " +
     "|" +
     " " +
-    "Cinemaa"
+    "RG SHOWS"
   }`;
   let cate = "";
   return `<div class="movie_details">
@@ -306,6 +306,17 @@ const html2 = function (moviee) {
 };
 
 const player = function (moviee) {
+  document.title = `${
+    moviee.title +
+    " " +
+    "(" +
+    dateFormatter(moviee.release_date) +
+    ")" +
+    " " +
+    "|" +
+    " " +
+    "RG SHOWS"
+  }`;
   let url = "./player.html?id=" + encodeURIComponent(movie.id);
   return `<div class="playButtonContainer"> 
             <span > <a class="playLink" href="${url}"><button class="play_btn"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"

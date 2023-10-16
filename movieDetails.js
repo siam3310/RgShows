@@ -64,9 +64,6 @@ const movieLoad = function () {
     let htm = "";
     htm = html2(dat);
     movieDetails.innerHTML = htm;
-	let playerh = "";
-	playerh = player(dat);
-	movieDetails.innerHTML = playerh;
     let BigPoster = Bigposter(dat);
     posterBBig.innerHTML = BigPoster;
     sectionStory.textContent = dat.overview;
@@ -86,6 +83,9 @@ const movieLoad = function () {
           Casdiv.insertAdjacentHTML("beforeend", castehtml);
         }
       });
+	let playerh = "";
+	playerh = player(dat);
+	movieDetails.innerHTML = playerh;
     }
 
     const castdiv = document.querySelectorAll(".castdiv");

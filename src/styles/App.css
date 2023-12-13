@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body, html {
+  background: #141414;
+  font-size: 16px;
+  color: #fff;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  font-weight: 700;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: transparent !important;
+}
+
+.loader {
+  filter: blur(20px) grayscale(100%);
+}
+
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 0.8s ease-in-out;
+}
+
+/*? Scrollbar */
+body::-webkit-scrollbar, .overview::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #b91c1c;
+  outline: 1px solid #b91c1c;
+  border-radius: 0.3rem;
+}
+
+/*? Swiper */
+.swiper-button-next {
+  justify-content: right !important;
+  padding-right: 1rem;
+  top: 50% !important;
+  right: 0 !important;
+  margin-top: 0 !important;
+  visibility: hidden;
+  height: 100% !important;
+  width: 10rem !important;
+  transform: translateY(-50%) !important;
+  transition: visibility 0.2s ease-in-out;
+  color: #b91c1c !important;
+  background: rgb(16,16,16);
+  background: linear-gradient(90deg, rgba(16,16,16,0) 0%, rgba(20,20,20,1) 100%);
+}
+
+.swiper:hover .swiper-button-next {
+  visibility: visible;
+}
+
+.swiper .swiper-button-next:active {
+  visibility: visible;
+  color: #7f1d1d !important;
+}
+
+.swiper-button-prev {
+  justify-content: left !important;
+  padding-left: 1rem;
+  top:  50% !important;
+  left: 0 !important;
+  margin-top: 0 !important;
+  visibility: hidden;
+  height: 100% !important;
+  width: 10rem !important;
+  transform: translateY(-50%) !important;
+  transition: visibility color 0.2s ease-in-out;
+  color: #b91c1c !important;
+  background: rgb(20,20,20);
+  background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(16,16,16,0) 100%);
+}
+
+.swiper:hover .swiper-button-prev {
+  visibility: visible;
+}
+
+.swiper .swiper-button-prev:active {
+  visibility: visible;
+  color: #7f1d1d !important;
+}
+
+@media (max-width: 640px) {
+  .swiper-button-next, 
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .swiper-button-next, 
+  .swiper-button-prev {
+    width: 11rem !important;
+  }
+}

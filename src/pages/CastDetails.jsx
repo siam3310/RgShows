@@ -11,7 +11,7 @@ export const CastDetails = ({showLoading}) => {
   const getId = JSON.parse(localStorage.getItem("clickCast"))
 
   const BASE_URL = "https://api.themoviedb.org/3"
-  const AUTH_KEY = "f6e840332142f77746185ab4e67be858"
+  const AUTH_KEY = process.env.REACT_APP_AUTH_KEY
   const fetchCastDetails = useRef(() => {})
   const fetchCastMovie = useRef(() => {})
 

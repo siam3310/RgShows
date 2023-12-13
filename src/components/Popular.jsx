@@ -13,7 +13,7 @@ export const PopularMovie = () => {
   const [movies, setMovies] = useState([]);
   
   const BASE_URL = "https://api.themoviedb.org/3"
-  const AUTH_KEY = process.env.REACT_APP_AUTH_KEY
+  const AUTH_KEY = "f6e840332142f77746185ab4e67be858"
   const fetchPopularMovie = useRef(() => {})
 
   const options = {

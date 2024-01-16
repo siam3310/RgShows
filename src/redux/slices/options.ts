@@ -6,7 +6,7 @@ const initialState: {
   seasonInfo: any;
 } = {
   season: 1,
-  api: "8stream",
+  api: "rgshows",
   seasonInfo: [
     {
       lang: [],

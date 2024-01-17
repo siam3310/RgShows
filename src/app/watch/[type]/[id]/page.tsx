@@ -52,7 +52,7 @@ const page = async ({ params }: { params: { id: string; type: string } }) => {
             Math.floor(Math.random() * (filteredImages?.length || 0))
           ]?.file_path
         }`}
-        aalt={"title"}
+        alt={"title"}
         width={1920}
         height={1080}
         className="object-cover w-full h-[500px] lg:h-[700px] absolute top-0 left-0"

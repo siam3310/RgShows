@@ -1,0 +1,17 @@
+cache {
+    position: absolute;
+    user-select: none;
+
+    top: 0;
+    left: 0;
+    
+    z-index: -1000;
+    opacity: 0;
+}
+
+cache img {
+    position: absolute;
+    
+    width: .1px;
+    height: .1px;
+}

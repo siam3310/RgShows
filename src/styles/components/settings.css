@@ -1,0 +1,77 @@
+.section.settings .label {
+    display: flex;
+    gap: var(--small-gap);
+
+    align-items: center;
+    opacity: var(--dim-opacity);
+
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.section.settings .label:not(:first-child) {
+    margin-top: 2rem;
+}
+
+.section.settings .selection {
+    display: flex;
+    background-color: var(--dark);
+
+    border: var(--small-border) solid var(--light);
+    width: fit-content;
+
+    padding: var(--small-padding);
+    box-sizing: border-box;
+
+    gap: var(--small-gap);
+    border-radius: var(--border-radius);
+
+    transition: var(--transition-speed) background-color;
+    user-select: none;
+
+    flex-wrap: wrap;
+}
+
+.section.settings .selection > div {
+    border-radius: calc(var(--border-radius) / 2);
+    padding: calc(var(--large-padding) / 1.5) var(--large-padding);
+    
+    box-sizing: border-box;
+    border: var(--small-border) solid transparent;
+
+    opacity: var(--dim-opacity);
+}
+
+.section.settings .selection > div:not(.active), .section.settings .selection.multi > div {
+    cursor: pointer;
+}
+
+@media (hover: hover) {
+    .section.settings .selection > div:not(.active):hover {
+        background-color: var(--light);
+    }
+}
+
+.section.settings .selection > div.active {
+    background-color: var(--light);
+    border: var(--small-border) solid var(--lighter);
+
+    opacity: 100%;
+}
+
+.section.settings .selection:not(.multi) > div.active {
+    pointer-events: none;
+}
+
+.section.settings .button.inactive {
+    opacity: var(--dim-opacity);
+    pointer-events: none;
+}
+
+.section.settings .buttons {
+    display: flex;
+    gap: var(--small-gap);
+
+    align-items: center;
+    flex-wrap: wrap;
+}

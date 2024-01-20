@@ -17,7 +17,9 @@ document.onkeydown = e => {
 
 document.addEventListener('keydown', function (e) {
   if ((e.ctrlKey && e.shiftKey && e.key === 'I') || (e.ctrlKey && e.shiftKey && e.key === 'i')) {
+    alert("Pls dont try to steal the codes Restricted By Rishab")
     e.preventDefault();
+    return false
   }
 });
     

@@ -27,7 +27,7 @@ cd RgShows
 2) Activate the github page.
 3) And Enjoy...!
 
-Or
+     Or
 
 1) Download the source code from releases.
 2) Open the index.html file in your web browser.

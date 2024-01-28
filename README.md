@@ -27,7 +27,7 @@ cd RgShows
 2) Activate the github page.
 3) And Enjoy...!
 
-     Or
+     **Or**
 
 1) Download the source code from releases.
 2) Open the index.html file in your web browser.
@@ -42,9 +42,9 @@ We welcome contributions from the community! Whether it's fixing bugs, adding ne
 Issues
 If you encounter any issues while using RgShows or have suggestions for improvement, please create an issue. We appreciate your feedback!
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+## Acknowledgements
 Special thanks to contributors who have helped shape RgShows into what it is today.
 Happy streaming with RgShows! 🍿🎉

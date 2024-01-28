@@ -21,21 +21,21 @@ git clone https://github.com/RISHAB-CREATOR/RgShows.git
 cd RgShows
 ```
 
-# Usage : 
+## Usage : 
 
-Fork the repository.
-Activate the github page.
-And Enjoy...!
+1) Fork the repository.
+2) Activate the github page.
+3) And Enjoy...!
 
 Open the index.html file in your web browser.
 Browse through the extensive catalog of shows and movies.
 Enjoy the content for free with minimal interruptions.
 Customize your viewing experience using the provided settings.
 
-# Contributing
+## Contributing
 We welcome contributions from the community! Whether it's fixing bugs, adding new features, or improving documentation, every contribution is valuable.
 
-# Open a pull request.
+## Open a pull request.
 Issues
 If you encounter any issues while using RgShows or have suggestions for improvement, please create an issue. We appreciate your feedback!
 

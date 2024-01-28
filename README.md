@@ -27,10 +27,13 @@ cd RgShows
 2) Activate the github page.
 3) And Enjoy...!
 
-Open the index.html file in your web browser.
-Browse through the extensive catalog of shows and movies.
-Enjoy the content for free with minimal interruptions.
-Customize your viewing experience using the provided settings.
+Or
+
+1) Download the source code from releases.
+2) Open the index.html file in your web browser.
+3) Browse through the extensive catalog of shows and movies.
+4) Enjoy the content for free with minimal interruptions.
+5) Customize your viewing experience using the provided settings.
 
 ## Contributing
 We welcome contributions from the community! Whether it's fixing bugs, adding new features, or improving documentation, every contribution is valuable.

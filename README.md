@@ -17,7 +17,7 @@ RgShows is an open-source HTML-based platform that allows users to watch a varie
 To get started with RgShows, simply clone the repository and open the `index.html` file in your preferred web browser. No complex setup or installations required!
 
 ```bash
-git clone https://github.com/your-username/RgShows.git
+git clone https://github.com/RISHAB-CREATOR/RgShows.git
 cd RgShows
 ```
 

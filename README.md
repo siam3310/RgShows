@@ -19,6 +19,7 @@ To get started with RgShows, simply clone the repository and open the `index.htm
 ```bash
 git clone https://github.com/your-username/RgShows.git
 cd RgShows
+```
 
 Usage
 Open the index.html file in your web browser.

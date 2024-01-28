@@ -28,7 +28,7 @@ cd RgShows
 3) And Enjoy...!
 
 ``
-Or
+     Or
 ``
 
 1) Download the source code from releases.
@@ -50,3 +50,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgements
 Special thanks to contributors who have helped shape RgShows into what it is today.
 Happy streaming with RgShows! 🍿🎉
+  

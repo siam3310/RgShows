@@ -14,14 +14,14 @@ RgShows is an open-source HTML-based platform that allows users to watch a varie
 
 ## Download links :
 
-Official App Link : https://files.catbox.moe/ooxafl.apk
-RgApps Store Link : https://rgapps.live/
+1) Official App Link : https://files.catbox.moe/ooxafl.apk 🚀
+2) RgApps Store Link : https://rgapps.live/ ✨
 
 ## Social Handles Link : 
 
-Discord : https://discord.gg/bosskingdom-comeback-1090560322760347649
-Instagram : https://www.instagram.com/rishabnotfound/
-Youtube : https://www.youtube.com/@Rishab07
+1) Discord : https://discord.gg/bosskingdom-comeback-1090560322760347649 🤝
+2) Instagram : https://www.instagram.com/rishabnotfound/ 📷
+3) Youtube : https://www.youtube.com/@Rishab07 😎
 
 ## Getting Started
 

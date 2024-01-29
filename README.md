@@ -15,7 +15,7 @@ RgShows is an open-source HTML-based platform that allows users to watch a varie
 ## Download links :
 
 1) Official App Link : https://files.catbox.moe/ooxafl.apk 🚀
-2) Web View : https://rgshows.vercel.app
+2) Web View : https://rgshows.vercel.app 🌐
 3) RgApps Store Link : https://rgapps.live/ ✨
 
 ## Social Handles Link : 
